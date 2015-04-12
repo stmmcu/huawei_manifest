@@ -1,5 +1,5 @@
-slimlp_manifest
-================
+CM12.1_manifest
+===============
 
 Local Manifest to build CyanogenMod 12.1 for the Huawei Y300/G510/G330/C8812E
 
