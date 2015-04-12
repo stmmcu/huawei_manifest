@@ -31,8 +31,8 @@ Build Instructions
             brunch u8951
         For G330:
             brunch u8825
-	For C8812E:
-	    brunch c8812e
+        For C8812E:
+            brunch c8812e
 
 Credits
 -----------------------------------------------------------------------------
