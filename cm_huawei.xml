@@ -2,7 +2,7 @@
    <manifest>
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
-     <project path="vendor/huawei" name="CyanogenMod12Y300/proprietary_vendor_huawei" remote="github" revision="lp5.0"/>
+     <project path="vendor/huawei" name="sunnyden/proprietary_vendor_huawei" remote="github" revision="lp5.0"/>
      <project path="vendor/huawei/c8812e" name="sunnyden/android_vendor_huawei_c8812e" remote="github" revision="cm-12.1"/>
      <project path="kernel/huawei/huawei-kernel-3.4" name="sunnyden/chil360-kernel" remote="github" revision="lp5.0"/>
      <project path="device/huawei/msm7x27a-common" name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common" remote="github" revision="cm-12.1"/>
@@ -22,9 +22,13 @@
      <remove-project name="CyanogenMod/android_frameworks_av" />
      <project path="frameworks/av" name="CyanogenMod12Y300/android_frameworks_av" remote="github" revision="cm-12.1" />
 
+     <!--wlan fix-->
+     <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+     <project path="external/wpa_supplicant_8" name="CyanogenMod12Y300/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
+     
      <!-- QCOM Hardware -->
-     <project path="hardware/qcom/display-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_display-caf" remote="github" revision="lp5.0" />
-     <project path="hardware/qcom/media-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_media" remote="github" revision="cm-12.1" />
+     <project path="hardware/qcom/display-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-msm7x27a" />
+     <project path="hardware/qcom/media-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-msm7x27a" />
      <!--eleven-->
      <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
      <project path="packages/apps/Eleven" name="CyanogenMod12Y300/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
