@@ -29,10 +29,7 @@
      <!-- QCOM Hardware -->
      <project path="hardware/qcom/display-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-msm7x27a" />
      <project path="hardware/qcom/media-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-msm7x27a" />
-     <!--eleven-->
-     <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
-     <project path="packages/apps/Eleven" name="CyanogenMod12Y300/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
-
+  
 </manifest>
 
  
