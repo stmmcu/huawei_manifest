@@ -1,14 +1,14 @@
-CM12.1_manifest
-===============
+SlimLP5.1_manifest
+==================
 
-Local Manifest to build CyanogenMod 12.1 for the Huawei Y300/G510/G330/C8812E
+Local Manifest to build SlimLP 5.1 for the Huawei Y300/G510/G330/C8812E
 
 Build Instructions
 -----------------------------------------------------------------------------
 
 1. Initialize repo using the SlimLP manifest (CAF branch)
     
-        repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
+        repo init -u git://github.com/SlimRoms/platform_manifest/android.git -b lp5.1
 
 2. Add my local manifest
 
