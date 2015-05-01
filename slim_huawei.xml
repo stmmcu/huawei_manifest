@@ -3,7 +3,7 @@
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="sunnyden/proprietary_vendor_huawei" remote="github" revision="lp5.0"/>
-     <project path="vendor/huawei/c8812e" name="sunnyden/android_vendor_huawei_c8812e" remote="github" revision="cm-12.1"/>
+     <project path="vendor/huawei/c8812e" name="sunnyden/android_vendor_huawei_c8812e" remote="github" revision="slim_lp5.1"/>
      <project path="kernel/huawei/huawei-kernel-3.4" name="sunnyden/chil360-kernel" remote="github" revision="lp5.0"/>
      <project path="device/huawei/msm7x27a-common" name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common" remote="github" revision="cm-12.1"/>
      <project path="device/huawei/u8833" name="CyanogenMod12Y300/android_device_huawei_u8833" remote="github" revision="cm-12.1"/>
