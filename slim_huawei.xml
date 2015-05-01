@@ -20,10 +20,10 @@
 
      <!-- Custom framework_av -->
      <remove-project name="SlimRoms/frameworks_av" />
-     <project path="frameworks/av" name="sunnyden/android_frameworks_av" remote="github" revision="lp5.1" />
+     <project path="frameworks/av" name="sunnyden/frameworks_av" remote="github" revision="lp5.1" />
 
      <!--wlan fix-->
-     <remove-project name="SlimRoms/external_wpa_supplicant_8" />
+     <remove-project name="SlimRoms/android_external_wpa_supplicant_8" />
      <project path="external/wpa_supplicant_8" name="sunnyden/android_external_wpa_supplicant_8" remote="github" revision="lp5.1" />
      
      <!--FMRadio Package-->
