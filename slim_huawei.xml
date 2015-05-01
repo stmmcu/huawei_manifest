@@ -18,7 +18,7 @@
      <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
      <project path="hardware/qcom/gps" name="CyanogenMod12Y300/android_hardware_qcom_gps" remote="github" revision="cm-12.1" />
 
-     <!-- Custom Recording -->
+     <!-- Custom framework_av -->
      <remove-project name="CyanogenMod/android_frameworks_av" />
      <project path="frameworks/av" name="sunnyden/android_frameworks_av" remote="github" revision="cm-12.1" />
 
