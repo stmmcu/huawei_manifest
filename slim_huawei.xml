@@ -20,12 +20,15 @@
 
      <!-- Custom framework_av -->
      <remove-project name="CyanogenMod/android_frameworks_av" />
-     <project path="frameworks/av" name="sunnyden/android_frameworks_av" remote="github" revision="cm-12.1" />
+     <project path="frameworks/av" name="sunnyden/android_frameworks_av" remote="github" revision="lp5.1" />
 
      <!--wlan fix-->
      <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-     <project path="external/wpa_supplicant_8" name="sunnyden/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
-
+     <project path="external/wpa_supplicant_8" name="sunnyden/android_external_wpa_supplicant_8" remote="github" revision="lp5.1" />
+     
+     <!--FMRadio Package-->
+     <project path="packages/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-12.1" />
+     
      <!-- QCOM Hardware -->
      <project path="hardware/qcom/display-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-msm7x27a" />
      <project path="hardware/qcom/media-caf/msm7x27a" name="CyanogenMod12Y300/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-msm7x27a" />
