@@ -15,15 +15,15 @@
      <project path="hardware/atheros/wlan" name="CyanogenMod12Y300/android_hardware_atheros_wlan" remote="github" revision="cm-12.1" />
 
      <!-- GPS -->
-     <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+     <remove-project name="SlimRoms/hardware_qcom_gps" />
      <project path="hardware/qcom/gps" name="CyanogenMod12Y300/android_hardware_qcom_gps" remote="github" revision="cm-12.1" />
 
      <!-- Custom framework_av -->
-     <remove-project name="CyanogenMod/android_frameworks_av" />
+     <remove-project name="SlimRoms/frameworks_av" />
      <project path="frameworks/av" name="sunnyden/android_frameworks_av" remote="github" revision="lp5.1" />
 
      <!--wlan fix-->
-     <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+     <remove-project name="SlimRoms/external_wpa_supplicant_8" />
      <project path="external/wpa_supplicant_8" name="sunnyden/android_external_wpa_supplicant_8" remote="github" revision="lp5.1" />
      
      <!--FMRadio Package-->
