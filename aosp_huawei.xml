@@ -22,7 +22,7 @@
      <project path="frameworks/av" name="msm7x27a/android_frameworks_av" remote="github" revision="cm-12.1" />
 
      <!--wlan fix-->
-     <remove-project name="F-AOSP/android_external_wpa_supplicant_8" />
+     <remove-project name="platform/external/wpa_supplicant_8" />
      <project path="external/wpa_supplicant_8" name="msm7x27a/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
      <!--vendor-->
      <remove-project name="F-AOSP/platform_vendor_aosp" />
@@ -31,9 +31,9 @@
      <remove-project name="F-AOSP/platform_system_core" />
      <project path="system/core" name="F-AOSPY300/platform_system_core" remote="github" revision="aosp-5.1" />
      <remove-project name="F-AOSP/platform_frameworks_base" />
-     <project path="system/core" name="F-AOSPY300/platform_frameworks_base" remote="github" revision="aosp-5.1" />
+     <project path="frameworks/base" name="F-AOSPY300/platform_frameworks_base" remote="github" revision="aosp-5.1" />
      <remove-project name="F-AOSP/platform_packages_apps_Settings" />
-     <project path="system/core" name="F-AOSPY300/platform_packages_apps_Settings" remote="github" revision="aosp-5.1" />
+     <project path="packages/apps/Settings" name="F-AOSPY300/platform_packages_apps_Settings" remote="github" revision="aosp-5.1" />
      <!-- QCOM Hardware -->
      <project path="hardware/qcom/display-caf/msm7x27a" name="msm7x27a/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-msm7x27a" />
      <project path="hardware/qcom/media-caf/msm7x27a" name="msm7x27a/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-msm7x27a" />
