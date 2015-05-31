@@ -19,7 +19,7 @@
 
      <!-- Audio Recording -->
      <remove-project name="CyanogenMod/android_frameworks_av" />
-     <project path="frameworks/av" name="msm7x27a/android_frameworks_av" remote="github" revision="cm-12.1" />
+     <project path="frameworks/av" name="CyanogenMod12Y300/android_frameworks_av" remote="github" revision="cm-12.1" />
 
      <!--wlan fix-->
      <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
