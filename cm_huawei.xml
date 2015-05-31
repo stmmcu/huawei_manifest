@@ -12,7 +12,7 @@
      <project path="device/huawei/c8812e" name="sunnyden/android_device_huawei_c8812e" remote="github" revision="cm-12.1"/>
      <!-- WIFI -->
      <project path="hardware/atheros/wifi/ath6kl-huawei" name="msm7x27a/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
-     <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="github" revision="cm-12.1" />
+     <project path="hardware/atheros/wlan" name="msm7x27a/android_hardware_atheros_wlan" remote="github" revision="cm-12.1" />
      <!-- GPS -->
      <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
      <project path="hardware/qcom/gps" name="msm7x27a/android_hardware_qcom_gps" remote="github" revision="cm-12.1" />
